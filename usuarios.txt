@@ -1,0 +1,5 @@
+Todas las contraseñas son qwe123 y estan encriptadas en md5.
+
+
+
+

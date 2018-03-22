@@ -1,0 +1,120 @@
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	max-width: 50%;
+	max-height: 70%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 13px 20px;
+
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 0px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:16px;
+}
+
+.close:hover {
+	background: #00d9ff;
+}
+.click{
+	cursor: pointer;
+}
+.divmodal{
+	margin: 1% auto;
+}
+
+
+
+
+.modalDialog2 {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog2:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog2 > div {
+	max-width: 300px;
+	max-height: 90%%;
+	position: relative;
+	margin: 5% auto;
+	background: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.cardbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.carda {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.cardbutton:hover, .carda:hover {
+  opacity: 0.7;
+}
+.w3-container{
+	background: white;
+}
